@@ -1,0 +1,25 @@
+.statList {
+  list-style: none;
+  padding-left: 20px;
+  /* margin-right: 10px; */
+}
+.statListItem {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.statListItem:nth-child(3) {
+  margin-bottom: 25px;
+}
+
+.statListItem:nth-child(1n + 4) {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.statListItem .statListSpan {
+  margin-left: 10px;
+  font-weight: 700;
+  color: rgb(17, 161, 161);
+}

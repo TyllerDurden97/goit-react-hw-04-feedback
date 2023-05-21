@@ -1,0 +1,21 @@
+.feedBbutton {
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 20px;
+  background-color: #76d9f2;
+}
+
+.feedBbuttonGroup {
+  display: inline-block;
+}
+.feedBbutton:first-child {
+  margin-left: 20px;
+}
+
+.feedBbutton:hover {
+  background-color: #1de330;
+}
