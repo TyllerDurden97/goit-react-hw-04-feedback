@@ -7,6 +7,9 @@
   margin-right: 10px;
   font-size: 20px;
   background-color: #76d9f2;
+  -webkit-box-shadow: 7px 9px 14px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 7px 9px 14px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 7px 9px 14px 0px rgba(0, 0, 0, 0.31);
 }
 
 .feedBbuttonGroup {
@@ -17,5 +20,6 @@
 }
 
 .feedBbutton:hover {
-  background-color: #1de330;
+  color: #1538d5;
+  background-color: #4fc7e5c1;
 }
